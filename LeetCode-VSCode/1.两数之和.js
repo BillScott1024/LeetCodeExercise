@@ -23,6 +23,18 @@ var twoSum = function (nums, target) {
         }
     }
 };
-console.log(twoSum(nums, target));
+// console.log(twoSum(nums, target));
+
+var equ = function (a, b) {
+    return a == b;
+}
+console.log(0.1 + 0.2);
+console.log(equ(0.1 + 0.2, 0.3));
+
+for (let i = 0; i < 5; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, 1000 * i);
+  }
 // @lc code=end
 
