@@ -3,6 +3,9 @@
 		{
 			"name": "LeetCode-VSCode",
 			"path": "LeetCode-VSCode"
+		},
+		{
+			"path": "."
 		}
 	]
 }
