@@ -32,34 +32,34 @@ let data1 = [
 
 
 const dedup = (data: any[], getKey = (item: any): any => {}) => {
-    const results = new Array();
-    const map = new Map();
-    data.forEach((dataItem) => {
-        const key = getKey(dataItem);
-        if (!map.has(key)) {
-            map.set(key, dataItem);
-        }
-    });
-    map.forEach((item) => {
-        results.push(item);
-    });
-    return results;
+  const results = new Array();
+  const map = new Map();
+  data.forEach((dataItem) => {
+    const key = getKey(dataItem);
+    if (!map.has(key)) {
+      map.set(key, dataItem);
+    }
+  });
+  map.forEach((item) => {
+    results.push(item);
+  });
+  return results;
 }
 
 let data = [
-    { id: 1, v: 1 },
-    { id: 2, v: 2 },
-    { id: 1, v: 1 },
+  { id: 1, v: 1 },
+  { id: 2, v: 2 },
+  { id: 1, v: 1 },
 ];
 
 let data1 = [
-    { id: 1, v: 1, id1: 1 },
-    { id: 2, v: 2, id1: 2 },
-    { id: 1, v: 1, id1: 1 },
+  { id: 1, v: 1, id1: 1 },
+  { id: 2, v: 2, id1: 2 },
+  { id: 1, v: 1, id1: 1 },
 ];
 
-const res = dedup(data, (item) => item.id);
-console.log(res);
+// const res = dedup(data, (item) => item.id);
+// console.log(res);
 
-const res1 = dedup(data1, (item) => `${item.id}+${item.id1}`);
-console.log(res1);
+// const res1 = dedup(data1, (item) => `${item.id}+${item.id1}`);
+// console.log(res1);
