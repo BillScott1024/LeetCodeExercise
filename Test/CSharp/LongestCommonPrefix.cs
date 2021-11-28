@@ -6,8 +6,8 @@ namespace LeetCodeExercise
     {
         public class Solution
         {
-           
-            
+
+
             public static string LongestCommonPrefix(string[] strs)
             {
                 // 结果
@@ -30,7 +30,10 @@ namespace LeetCodeExercise
 
                 for (int i = 0; i < minLength; i++)
                 {
-                    if (strs[i] == strs)
+                    if (strs[i] == strs[minLength])
+                    {
+                        //TODO
+                    }
                 }
 
                 return resultStr;
@@ -38,7 +41,7 @@ namespace LeetCodeExercise
 
             static void Main(string[] args)
             {
-                string[] strs = {"dog", "racecar", "car"};
+                string[] strs = { "dog", "racecar", "car" };
 
                 Console.WriteLine(LongestCommonPrefix(strs));
             }
