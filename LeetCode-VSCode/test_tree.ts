@@ -25,5 +25,7 @@ treeNode.left.right = new TreeNode(5);
 treeNode.right.right = new TreeNode(6);
 treeNode.left.right.left = new TreeNode(7);
 treeNode.left.right.right = new TreeNode(8);
+treeNode.left.right.right.right = new TreeNode(9);
+
 
 prePrderTraverse(treeNode);
