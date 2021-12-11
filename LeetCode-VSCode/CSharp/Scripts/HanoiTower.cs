@@ -1,13 +1,15 @@
 /*
  * @Author: Wang Jun
  * @Date: 2021-12-11 15:45:21
- * @LastEditTime: 2021-12-11 16:02:28
- * @LastEditors: Wang Jun
+ * @LastEditTime: 2021-12-11 17:30:14
+ * @LastEditors: Akimoto
  * @Description: 汉诺塔问题
  * @FilePath: HanoiTower.cs
  * 
  */
 using System;
+using System.Collections;
+using System.Collections.Generic;
 static class HanoiTower
 {
     private static int count = 0;
@@ -18,25 +20,35 @@ static class HanoiTower
     /// <param name="A"> A </param>
     /// <param name="B">B</param>
     /// <param name="C">C</param>
-    public static void Hanoi(int n, string A, string B, string C)
+    public static void Hanoi(IList<int> A, IList<int> B, IList<int> C)
+    {
+        int n = A.Count;
+
+        Move(n, A, B, C);
+        for (int i = 0; i < C.Count; i++)
+            {
+                Console.WriteLine(C[i]);
+            }
+    }
+    //移动
+    public static void Move(int n, IList<int> A, IList<int> B, IList<int> C)
     {
         if (n == 1)
         {
-            Move(A, C);
-            Console.WriteLine("总步骤 {0}", count);
+            C.Add(Pop(A));
         }
         else
         {
-            Hanoi(n - 1, A, C, B);
-            Move(A, C);
-            Hanoi(n - 1, B, A, C);
+            Move(n - 1, A, C, B);
+            C.Add(Pop(A));
+            Move(n - 1, B, A, C);
         }
-
     }
-
-    private static void Move(string source, string dest)
+    // 推出最后一个值
+    public static int Pop(IList<int> list)
     {
-        count++;
-        Console.WriteLine("Move {0} To {1}", source, dest);
+        int lastValue = list[list.Count - 1];
+        list.RemoveAt(list.Count - 1);
+        return lastValue;
     }
 }
