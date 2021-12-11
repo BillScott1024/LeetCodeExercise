@@ -8,26 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Akimoto\\.nuget\\packages\\": {}
+    "/Users/akimoto/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Git\\PersonalProject\\LeetCodeExercise\\Test\\CSharp\\LeetCodeExercise.csproj",
+      "projectUniqueName": "/Users/akimoto/Git/PersonalProject/LeetCodeExercise/Test/CSharp/LeetCodeExercise.csproj",
       "projectName": "LeetCodeExercise",
-      "projectPath": "G:\\Git\\PersonalProject\\LeetCodeExercise\\Test\\CSharp\\LeetCodeExercise.csproj",
-      "packagesPath": "C:\\Users\\Akimoto\\.nuget\\packages\\",
-      "outputPath": "G:\\Git\\PersonalProject\\LeetCodeExercise\\Test\\CSharp\\obj\\",
+      "projectPath": "/Users/akimoto/Git/PersonalProject/LeetCodeExercise/Test/CSharp/LeetCodeExercise.csproj",
+      "packagesPath": "/Users/akimoto/.nuget/packages/",
+      "outputPath": "/Users/akimoto/Git/PersonalProject/LeetCodeExercise/Test/CSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Akimoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/akimoto/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
