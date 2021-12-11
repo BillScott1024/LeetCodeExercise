@@ -1,0 +1,15 @@
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/LeetCodeExercise.deps.json
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/LeetCodeExercise.runtimeconfig.json
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/LeetCodeExercise.runtimeconfig.dev.json
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/LeetCodeExercise.dll
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/ref/LeetCodeExercise.dll
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/bin/Debug/net5.0/LeetCodeExercise.pdb
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.csproj.AssemblyReference.cache
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.AssemblyInfoInputs.cache
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.AssemblyInfo.cs
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.csproj.CoreCompileInputs.cache
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.dll
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/ref/LeetCodeExercise.dll
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.pdb
+/Users/akimoto/Git/PersonalProject/LeetCodeExercise/LeetCode-VSCode/CSharp/obj/Debug/net5.0/LeetCodeExercise.genruntimeconfig.cache
