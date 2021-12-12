@@ -39,12 +39,12 @@ namespace LeetCodeExercise
                 return resultStr;
             }
 
-            static void Main(string[] args)
-            {
-                string[] strs = { "dog", "racecar", "car" };
+            // static void Main(string[] args)
+            // {
+            //     string[] strs = { "dog", "racecar", "car" };
 
-                Console.WriteLine(LongestCommonPrefix(strs));
-            }
+            //     Console.WriteLine(LongestCommonPrefix(strs));
+            // }
         }
     }
 }
