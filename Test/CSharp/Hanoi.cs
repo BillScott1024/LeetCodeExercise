@@ -22,7 +22,7 @@ public static class Solution
         }
         else
         {
-            Move(n - 1, A, C, B);
+            // Move(n - 1, A, C, B);
             C.Add(Pop(A));
             Move(n - 1, B, A, C);
         }
