@@ -1,5 +1,4 @@
 using System;
-using System.Data;
 using System.Collections;
 using System.Diagnostics;
 using System.Collections.Generic;
@@ -18,11 +17,12 @@ public static class Solution
         if (n == 1)
         {
             C.Add(Pop(A));
-            Debug.WriteLine(C);
+            // Debug.WriteLine(C);
+            Console.WriteLine(C);
         }
         else
         {
-            // Move(n - 1, A, C, B);
+            Move(n - 1, A, C, B);
             C.Add(Pop(A));
             Move(n - 1, B, A, C);
         }
@@ -45,10 +45,13 @@ public static class Solution
         A.Add(0);
 
 
-        Debug.WriteLine("Test1");
+        // Debug.WriteLine("Test1");
+        Console.WriteLine("Test1");
         Hanota(A, B, C);
-        Debug.WriteLine(C.ToString());
-        Debug.WriteLine("Test");
+        // Debug.WriteLine(C.ToString());
+        Console.WriteLine(C.ToString());
+        // Debug.WriteLine("Test");
+        Console.WriteLine("Test");
     }
 
 }

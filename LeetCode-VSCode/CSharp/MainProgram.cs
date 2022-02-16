@@ -16,9 +16,9 @@ namespace LeetCodeExercise
             // A.Add(2);
             // A.Add(1);
             // A.Add(0);
-            StringBuilder stringBuilder = new StringBuilder("123");
-            stringBuilder.Append("456");
-            Console.WriteLine(stringBuilder.ToString());
+            // StringBuilder stringBuilder = new StringBuilder("123");
+            // stringBuilder.Append("456");
+            // Console.WriteLine(stringBuilder.ToString());
             HanoiTower.Hanoi(A, B, C);
         }
     }

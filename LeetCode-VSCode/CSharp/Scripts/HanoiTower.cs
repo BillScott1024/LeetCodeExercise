@@ -1,7 +1,7 @@
 /*
  * @Author: Wang Jun
  * @Date: 2021-12-11 15:45:21
- * @LastEditTime: 2021-12-11 17:30:14
+ * @LastEditTime: 2022-01-08 17:15:13
  * @LastEditors: Akimoto
  * @Description: 汉诺塔问题
  * @FilePath: HanoiTower.cs
@@ -25,10 +25,10 @@ static class HanoiTower
         int n = A.Count;
 
         Move(n, A, B, C);
-        for (int i = 0; i < C.Count; i++)
-            {
-                Console.WriteLine(C[i]);
-            }
+        // for (int i = 0; i < C.Count; i++)
+        // {
+        //     Console.WriteLine(C[i]);
+        // }
     }
     //移动
     public static void Move(int n, IList<int> A, IList<int> B, IList<int> C)
